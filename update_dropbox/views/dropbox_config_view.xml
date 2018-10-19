@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_dropbox_configuration" model="ir.ui.view">
+            <field name="name">dropbox.res.config.view</field>
+            <field name="model">dropbox.config.settings</field>
+            <field name="arch" type="xml">
+                <form string="Configure DropBox API Interaction" class="oe_form_configuration">
+                    <header>
+                        <button string="Apply" type="object" name="execute" class="oe_highlight"/>
+                        <button string="Cancel" type="object" name="cancel" class="oe_link"/>
+                    </header>
+                    <group string="Dropbox Credentials">
+                        <field name="token" password="True"/>
+                    </group>
+                    <group string="Documentation">
+                        <button string="How to Obtain Access Token" type="object" name="go_to_link" class="oe_link"/>
+                    </group>
+
+                </form>
+            </field>
+        </record>
+
+        <record id="action_dropbox_configuration" model="ir.actions.act_window">
+            <field name="name">Configure Dropbox</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">dropbox.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+        </record>
+
+
+        <menuitem id="menu_dropbox_general_settings"
+                  name="Token Dropbox"
+                  parent="auto_backup.auto_backup_menu"
+                  sequence="10"
+                  action="action_dropbox_configuration"
+                  groups="base.group_system"/>
+    </data>
+</odoo>

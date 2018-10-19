@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <odoo>
+    <data>
+        <record model="ir.ui.view" id="update_dropbox_view_backup_conf_form">
+            <field name="name">update.dropbox.view.backup.conf.form</field>
+            <field name="model">db.backup</field>
+            <field name="inherit_id" ref="auto_backup.view_backup_conf_form"/>
+            <field name="arch" type="xml">
+               <xpath expr="//field[@name='autoremove']" position="before">
+                    <field name="dropbox_upload" groups="update_dropbox.group_dropbox_manager"/>
+                    <field name="recurrency" class="oe_inline"
+                        attrs="{'invisible': [('dropbox_upload','=',False)], 'required': [('dropbox_upload','=',True)]}"
+                        groups="update_dropbox.group_dropbox_manager"/>
+                    <field name="send_mail"
+                        attrs="{'invisible': [('dropbox_upload','=',False)]}"
+                        groups="update_dropbox.group_dropbox_manager"/>
+                    <field name="send_to" class="oe_inline" placeholder="user@example.com"
+                        attrs="{'invisible': ['|',('dropbox_upload','=',False),('send_mail','=',False)]}"
+                        groups="update_dropbox.group_dropbox_manager"/>
+               </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

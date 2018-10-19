@@ -1,0 +1,296 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* update_dropbox
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-22 22:52+0000\n"
+"PO-Revision-Date: 2017-02-22 22:52+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:136
+#, python-format
+msgid "(Part of the) path didn't exist. Creating it now at "
+msgstr "(Parte de) La ruta no existe. Creando una en "
+
+#. module: update_dropbox
+#: model:ir.model.fields,help:update_dropbox.field_dropbox_config_settings_token
+msgid "Application Access Token"
+msgstr "Token de Acceso"
+
+#. module: update_dropbox
+#: model:ir.ui.view,arch_db:update_dropbox.view_dropbox_configuration
+msgid "Apply"
+msgstr "Aplicar"
+
+#. module: update_dropbox
+#: model:ir.ui.view,arch_db:update_dropbox.view_dropbox_configuration
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: update_dropbox
+#: model:ir.ui.view,arch_db:update_dropbox.view_dropbox_configuration
+msgid "Configure DropBox API Interaction"
+msgstr "Configurar  Interacción con API de DropBox"
+
+#. module: update_dropbox
+#: model:ir.actions.act_window,name:update_dropbox.action_dropbox_configuration
+msgid "Configure dropboxs"
+msgstr "Configurar dropboxs"
+
+#. module: l10n_cl_update_dropbox
+#: model:ir.model.fields,field_description:l10n_cl_update_dropbox.field_db_backup_send_to
+msgid "Confirmation EMail"
+msgstr "Email Confirmación"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:71
+#, python-format
+msgid "Couldn't backup database %s. Bad database administrator password for server running at http://%s:%s"
+msgstr "No se pudo respaldar la base de datos %s. La clave del administrador para la base de datos es incorrecta en el servidor corriendo en http://%s:%s"
+
+#. module: update_dropbox
+#: model:ir.model.fields,field_description:update_dropbox.field_dropbox_config_settings_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: update_dropbox
+#: model:ir.model.fields,field_description:update_dropbox.field_dropbox_config_settings_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: update_dropbox
+#: selection:db.backup,recurrency:0
+msgid "Daily"
+msgstr "Diario"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:183
+#, python-format
+msgid "Dear,\n"
+"\n"
+"The backup for the server  (IP: ) failed.Please check the following details:\n"
+"\n"
+"IP address SFTP server: \n"
+"Username: \n"
+"Password: \n"
+"\n"
+"Error details: \n"
+"\n"
+"With kind regards"
+msgstr "Estimado,\n"
+"\n"
+"El respaldo para el servidor (IP: ) ha fallado. Por favor verifique los siguientes detalles:\n"
+"\n"
+"Dirección IP del servidor SFTP: \n"
+"Usuario: \n"
+"Contraseña: \n"
+"\n"
+"Detalles del error: \n"
+"\n"
+"Saludos cordiales"
+
+#. module: l10n_cl_update_dropbox
+#: code:addons/l10n_cl_update_dropbox/models/db_backup.py:109
+#, python-format
+msgid "Dear,\n"
+"\n"
+"The backup for the server  it's been uploaded successfully to your Dropbox account."
+msgstr "Estimado,\n"
+"\n"
+"El respaldo para el servidor  ha sido subido exitosamente a su cuenta de Dropbox."
+
+#. module: update_dropbox
+#: model:ir.model.fields,help:update_dropbox.field_db_backup_recurrency
+msgid "Defines the recurrency of backups to be upload in Dropbox"
+msgstr "Define la periodicidad de los respaldos a ser subidos en Dropbox"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:206
+#, python-format
+msgid "Delete local out-of-date file: "
+msgstr "Elimina archivo local fuera de fecha: "
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:172
+#, python-format
+msgid "Delete too old file from SFTP servers: "
+msgstr "Elimina archivos muy antiguos de servidores SFTP: "
+
+#. module: update_dropbox
+#: model:ir.model.fields,field_description:update_dropbox.field_dropbox_config_settings_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: update_dropbox
+#: model:ir.ui.view,arch_db:update_dropbox.view_dropbox_configuration
+msgid "Documentation"
+msgstr "Documentación"
+
+#. module: update_dropbox
+#: model:ir.ui.menu,name:update_dropbox.menu_dropbox_general_settings
+msgid "Dropbox Config"
+msgstr "Configuración Dropbox"
+
+#. module: update_dropbox
+#: model:ir.ui.view,arch_db:update_dropbox.view_dropbox_configuration
+msgid "Dropbox Credentials"
+msgstr "Credenciales Dropbox"
+
+#. module: update_dropbox
+#: model:ir.module.category,name:update_dropbox.dropbox_category
+msgid "Dropbox Settings"
+msgstr "Configuraciones Dropbox"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:107
+#, python-format
+msgid "Exception! Something is wrong with the Dropbox API connection"
+msgstr "Error! Algo erróneo sucede con la conexión a la API de Dropbox"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:177
+#, python-format
+msgid "Exception! We couldn't back up to the FTP server.."
+msgstr "Error! No se pudo respaldar la base de datos en el servidor FTP.."
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:104
+#, python-format
+msgid "Exception! We couldn't upload the file %s to the Dropbox user account"
+msgstr "Error! No se pudo subir el archivo %s a la cuenta de Dropbox"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:152
+#, python-format
+msgid "File %s already exists on the remote FTP Server ------ skipped"
+msgstr "El archivo %s ya existe en el servidor remoto FTP ------ omitido"
+
+#. module: update_dropbox
+#: model:ir.ui.view,arch_db:update_dropbox.view_dropbox_configuration
+msgid "How to Obtain Access Token"
+msgstr "Cómo obtener el Token de acceso?"
+
+#. module: update_dropbox
+#: model:ir.model.fields,field_description:update_dropbox.field_dropbox_config_settings_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: update_dropbox
+#: model:ir.model.fields,help:update_dropbox.field_db_backup_dropbox_upload
+msgid "If you check this option you can specify the details needed to upload backups into a Dropbox User Account."
+msgstr "Si habilita esta opción, puede especificar los detalles necesarios para subir los respaldos a una cuenta Dropbox."
+
+#. module: update_dropbox
+#: model:ir.model.fields,field_description:update_dropbox.field_dropbox_config_settings___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: update_dropbox
+#: model:ir.model.fields,field_description:update_dropbox.field_dropbox_config_settings_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: update_dropbox
+#: model:ir.model.fields,field_description:update_dropbox.field_dropbox_config_settings_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: update_dropbox
+#: model:res.groups,name:update_dropbox.group_dropbox_manager
+msgid "Manager"
+msgstr "Responsable"
+
+#. module: update_dropbox
+#: selection:db.backup,recurrency:0
+msgid "Monthly"
+msgstr "Mensual"
+
+#. module: update_dropbox
+#: model:ir.model.fields,field_description:update_dropbox.field_db_backup_recurrency
+msgid "Recurrency"
+msgstr "Periodicidad"
+
+#. module: l10n_cl_update_dropbox
+#: model:ir.model.fields,help:l10n_cl_update_dropbox.field_db_backup_send_to
+msgid "Recipient email to the upload confirmation mail"
+msgstr "Destinatario para el correo de confirmación de subida de respaldo"
+
+#. module: l10n_cl_update_dropbox
+#: model:ir.model.fields,field_description:l10n_cl_update_dropbox.field_db_backup_send_mail
+msgid "Send Confirmation Mail"
+msgstr "Enviar correo de confirmación"
+
+#. module: l10n_cl_update_dropbox
+#: model:ir.model.fields,help:l10n_cl_update_dropbox.field_db_backup_send_mail
+msgid "Send upload confirmation mail"
+msgstr "Enviar correo de confirmación de subida"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:102
+#, python-format
+msgid "Succesfully file upload: %s%s (%s)"
+msgstr "Exitosa subida de archivo: %s%s (%s)"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:148
+#, python-format
+msgid "The file %s is not yet on the remote FTP Server ------ Copying file"
+msgstr "El archvio %s aún no está en el servidor remoto FTP ------ Copiando archivo"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:19
+#, python-format
+msgid "This module needs pysftp to automaticly write backups to the FTP through SFTP. Please install pysftp on your system. (sudo pip install pysftp)"
+msgstr "Este módulo necesita pysftp para copiar automáticamente respaldos en FTP a través de SFTP. Por favor instale pysftp en su sistema. (sudo pip install pysftp)"
+
+#. module: update_dropbox
+#: model:ir.model.fields,field_description:update_dropbox.field_dropbox_config_settings_token
+msgid "Token"
+msgstr "Token"
+
+#. module: update_dropbox
+#: model:ir.model.fields,field_description:update_dropbox.field_db_backup_dropbox_upload
+msgid "Upload backup in Dropbox"
+msgstr "Subida de respaldos en Dropbox"
+
+#. module: update_dropbox
+#: model:res.groups,name:update_dropbox.group_dropbox_user
+msgid "User"
+msgstr "Usuario"
+
+#. module: update_dropbox
+#: selection:db.backup,recurrency:0
+msgid "Weekly"
+msgstr "Semanal"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:79
+#, python-format
+msgid "database %s doesn't exist on http://%s:%s"
+msgstr "base de datos %s no existe en http://%s:%s"
+
+#. module: update_dropbox
+#: model:ir.model,name:update_dropbox.model_db_backup
+msgid "db.backup"
+msgstr "db.backup"
+
+#. module: update_dropbox
+#: model:ir.model,name:update_dropbox.model_dropbox_config_settings
+msgid "dropbox.config.settings"
+msgstr "dropbox.config.settings"
+
+#. module: update_dropbox
+#: code:addons/update_dropbox/models/db_backup.py:125
+#, python-format
+msgid "sftp remote path: %s"
+msgstr "Ruta remota SFTP: %s"
+
